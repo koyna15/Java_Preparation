@@ -12,7 +12,7 @@ public class UtilityClass2 {
         LocalDate currentDate = LocalDate.now();
         Period age = Period.between(birthDate, currentDate);
         System.out.println("Your age is: " + age.getYears() + " years");
-
+        System.out.println(birthDate);
         scanner.close();
     }
 
