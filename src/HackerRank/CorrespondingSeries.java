@@ -14,7 +14,7 @@ public class CorrespondingSeries {
 
             int result = a;
             for (int j = 0; j < n; j++) {
-                result += Math.pow(2, j) * b;
+                result += (int)Math.pow(2, j) * b;
                 System.out.print(result + " ");
             }
             System.out.println();
