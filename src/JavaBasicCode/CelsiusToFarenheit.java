@@ -2,7 +2,8 @@ package JavaBasicCode;
 
 public class CelsiusToFarenheit {
     public static void main(String[] args) {
-        int fahr = 20;
-        System.out.println(20+273);
+        double celsius = 25;
+        double fahrenheit = (9.0 /5 * celsius) + 32;
+        System.out.println(fahrenheit);
     }
 }
