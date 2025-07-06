@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class RotatedArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        Rotate(arr, 2);
+        Rotate(arr, 3);
         System.out.println(Arrays.toString(arr));
     }
 
