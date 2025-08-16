@@ -2,20 +2,17 @@ package Recursion;
 
 public class pattern {
     public static void main(String[] args) {
-        triangle2(4,0);
+        triangle(3,0);
     }
     static void triangle2(int r, int c){
         if(r==0){
             return;
         }
         if(c<r){
-
             triangle2(r, c+1);
             System.out.print("*");
-
         }
         else{
-
             triangle2(r-1, 0);
             System.out.println();
         }
@@ -27,7 +24,6 @@ public class pattern {
         if(c<r){
             System.out.print("*");
             triangle(r, c+1);
-
         }
         else{
             System.out.println();
