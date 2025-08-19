@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class BsSolve {
     public static void main(String[] args) {
-        int[] arr = {-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
-        int target = -18;
+        //int[] arr = {-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
+        int[] arr = {10,8,30,40,5};
+        int target = 5;
         int ans = binarySearch(arr,target);
         System.out.println(ans);
     }
