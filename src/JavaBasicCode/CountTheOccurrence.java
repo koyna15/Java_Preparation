@@ -4,7 +4,7 @@ public class CountTheOccurrence {
     public static void main(String[] args) {
 //        Scanner in = new Scanner(System.in);
 //        int num = in.nextInt();
-        int num = 5657777;
+        int num = 56577777;
         int count = 0;
         int rem;
 
