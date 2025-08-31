@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 class Solution {
     public static void main(String[] args) {
-        int[] nums = {3,4,5,6};
-        int target = 7;
+        int[] nums = {3,4,5,6,8};
+        int target = 9;
         int[] ans = twoSum(nums,target);
         System.out.println(Arrays.toString(ans));
     }
